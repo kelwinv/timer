@@ -1,0 +1,201 @@
+interface Memory {
+  id: number
+  date: string
+  image: string
+  title: string
+  location: string
+  description: string
+  quote?: string
+  videoUrl?: string
+}
+
+const MEMORIES: Memory[] = [
+  {
+    id: 1,
+    date: "2022-09-25",
+    image: "/us/20220925_inicio.JPG",
+    title: "Início",
+    location: "Sua festa",
+    description: "Nossa primeira foto como casal, um momento inesquecível.",
+    quote: "A vida é feita de momentos, e esse foi o nosso início.",
+  },
+  {
+    id: 2,
+    date: "2022-10-12",
+    image: "/us/20221012_praia.jpg",
+    title: "Primeiro Te Amo",
+    location: "Praia",
+    description: "Uma viagem bem conturbada, mas com final feliz, o primeiro \"Te amo\".",
+    quote: "Te amo",
+  },
+  {
+    id: 3,
+    date: "2022-10-15",
+    image: "/us/20221015-mac100.jpg",
+    title: "Mac 100",
+    location: "Paulista",
+    description: "Amo essa foto, mesmo com as pessoas no fundo nos julgando",
+  },
+  {
+    id: 4,
+    date: "2022-11-05",
+    image: "/us/20221105_cachorro.jpg",
+    title: "Paçoca",
+    location: "Casa da sua mãe",
+    description: "O dia que você me apresentou o Paçoca.",
+    quote: "Vamos dormir no chão para ele não cair da cama"
+  },
+  {
+    id: 20,
+    date: "2022-11-12",
+    image: "/us/image.png",
+    title: "Indo para o show",
+    location: "Allianz Parque",
+    description: "Lembro ate hoje como você estava linda nesse dia.",
+    quote: "Qual a sensação? - Muita felicidade um sonho realizado.",
+    videoUrl: "/us/119591205_show.mp4",
+  },
+  {
+    id: 5,
+    date: "2022-11-12",
+    image: "/us/20221112_show.jpg",
+    title: "Show bem TØP",
+    location: "Allianz Parque",
+    quote: "Estou muito feliz por você estar aqui comigo.",
+    description: "O show que fez eu amar a banda mais ainda.",
+  },
+  {
+    id: 6,
+    date: "2022-11-25",
+    image: "/us/20221125_alianca.jpg",
+    title: "Aliança",
+    location: "Casa da sua mãe",
+    description: "Uma aliança, sushi e um pedido de namoro.",
+    quote: "Você não me pediu em namoro... eu pedi você em namoro!.",
+  },
+  {
+    id: 7,
+    date: "2022-12-14",
+    image: "/us/20221214_shopping.jpg",
+    title: "2 reais ou um date misterioso",
+    location: "Shopping",
+    description: "Um dia de muita fofoca e comida.",
+  },
+  {
+    id: 22,
+    date: "2022-12-26",
+    image: "/us/20221220_almoco.png",
+    title: "Primeiro almoço",
+    location: "Primeira casa",
+    description: "Nosso primeiro almoço juntos, um momento especial.",
+    quote: "cup noodles com suco? - Sim, não gostou? - Não, amei.",
+  },
+  {
+    id: 8,
+    date: "2022-12-26",
+    image: "/us/20221226_natal.jpg",
+    title: "Natal",
+    location: "casa da sua mãe",
+    description: "O paçoca ja estava grande",
+  },
+  {
+    id: 9,
+    date: "2023-01-15",
+    image: "/us/20230117_cozinha.jpg",
+    title: "Cha de cozinha",
+    location: "conceição",
+    description: "Nosso cha de cozinha, apesar de não ter dado certo, foi um dia incrível.",
+  },
+  {
+    id: 10,
+    date: "2023-01-15",
+    image: "/us/20230118-cozinha2.jpg",
+    title: "Casal bonito",
+    location: "conceição",
+    description: "A gente não tem muitas fotos juntos, mas essa é uma das minhas favoritas.",
+  },
+  {
+    id: 11,
+    date: "2023-02-03",
+    image: "/us/20230203_espelho.webp",
+    title: "Espelho",
+    location: "Primeira casa",
+    description: "Nossa cama tinha o cantinho do paçoca",
+  },
+  {
+    id: 12,
+    date: "2023-02-10",
+    image: "/us/20230210-momo.jpg",
+    title: "Momo",
+    location: "shopping",
+    description: "Momo....",
+  },
+  {
+    id: 13,
+    date: "2023-03-18",
+    image: "/us/20230318_festa.jpg",
+    title: "Festa da brunneca",
+    location: "casa do brunno",
+    description: "Momentos antes do desastre.",
+    quote: "Você vai derrubar a geladeira!",
+  },
+  {
+    id: 14,
+    date: "2023-05-14",
+    image: "/us/20230514_vc-bonita.jpg",
+    title: "Workando juntos",
+    location: "Primeira casa",
+    description: "Saudades de trabalhar juntos no nosso escritório.",
+  },
+  {
+    id: 15,
+    date: "2023-07-23",
+    image: "/us/20230723_meu-niver.jpg",
+    title: "Meu Aniversário",
+    location: "Primeira casa",
+    description: "Amo esse dia, você me fez sentir especial.",
+  },
+  {
+    id: 16,
+    date: "2023-09-30",
+    image: "/us/20230930_nosso-olhar.jpg",
+    title: "Nosso Olhar",
+    location: "Primeira casa",
+    description: "Essa foto é uma das minhas favoritas, lembro como se fosse ontem",
+  },
+  {
+    id: 17,
+    date: "2023-10-29",
+    image: "/us/20231029-fantasia-terror.jpg",
+    title: "HelLeoWill",
+    location: "quebras do will do mal",
+    description: "Festa de Halloween, muita briga bebida e diversão.",
+    quote: "Você não vai brigar com ngm - deixa eu ir",
+  },
+  {
+    id: 18,
+    date: "2023-11-02",
+    image: "/us/20231102_estadio-sp.webp",
+    title: "Estádio SP",
+    location: "Estádio SP",
+    description: "Sem comentários...",
+  },
+  {
+    id: 19,
+    date: "2024-10-16",
+    image: "/us/20241016_gravidez.jpg",
+    title: "Gravidez",
+    location: "Terceira casa",
+    description: "Momento inesquecível, a espera do nosso primeiro filho.",
+  },
+  {
+    id: 25,
+    date: "",
+    image: "",
+    title: "Nosso Casamento",
+    location: "",
+    description: "Um dia especial, onde celebramos nosso amor e compromisso.",
+  }
+]
+
+export { MEMORIES}
