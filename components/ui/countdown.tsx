@@ -106,7 +106,7 @@ export default function Countdown() {
         </div>
 
         <motion.p variants={itemVariants} className="text-center text-gray-400 mt-8 font-['Montserrat'] text-sm">
-          03 DE OUTUBRO DE 2025
+          03 DE OUTUBRO DE 2026
         </motion.p>
       </motion.div>
     </div>
