@@ -4,7 +4,7 @@ import { useEffect, useState, useCallback } from "react"
 import { motion } from "framer-motion"
 import { differenceInDays, differenceInHours, differenceInMinutes, differenceInSeconds } from "date-fns"
 
-const WEDDING_DATE = new Date("2025-10-03T18:13:00")
+const WEDDING_DATE = new Date("2026-10-03T18:13:00")
 
 interface TimeUnit {
   value: number
