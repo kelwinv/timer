@@ -54,7 +54,7 @@ export default function SongQuotes() {
       >
         <div className="flex items-center justify-center gap-2 mb-8">
           <Music className="h-5 w-5 text-wedding-lilac" />
-          <h3 className="font-['Cormorant_Garamond'] text-2xl text-wedding-lilac text-center">Morar Só - Supercombo</h3>
+          <h3 className="font-['Cormorant_Garamond'] text-2xl text-wedding-lilac text-center">Morar - Supercombo</h3>
         </div>
 
         <div className="space-y-8">
